@@ -47,3 +47,5 @@ const syncUserUpdation = inngest.createFunction(
 );
 
 export const functions = [SyncUserCreation, syncUserDeletion, syncUserUpdation];
+
+// trigger redeploy
