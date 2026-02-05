@@ -5,7 +5,7 @@ export const inngest = new Inngest({ id: "movie-ticket-booking" });
 
 const SyncUserCreation = inngest.createFunction(
   { id: "sync-user-from-clerk" },
-  { event: "clerk/users.created" },
+  { event: "clerk/user.created" }, // Changed to singular
   async ({ event, step }) => {
     const { id, first_name, last_name, email_addresses, image_url } = event.data;
     const UserData = {
@@ -20,7 +20,7 @@ const SyncUserCreation = inngest.createFunction(
 
 const syncUserDeletion = inngest.createFunction(
   { id: "delete-user-with-clerk" },
-  { event: "clerk/users.deleted" }, // Fixed: added 's'
+  { event: "clerk/user.deleted" }, // Changed to singular
   async ({ event }) => {
     const { id } = event.data;
     await User.findByIdAndDelete(id);
@@ -29,12 +29,12 @@ const syncUserDeletion = inngest.createFunction(
 
 const syncUserUpdation = inngest.createFunction(
   { id: "update-user-from-clerk" },
-  { event: "clerk/users.updated" }, // Fixed: added 's'
+  { event: "clerk/user.updated" }, // Changed to singular
   async ({ event }) => {
     const { id, first_name, last_name, email_addresses, image_url } = event.data;
     const UserData = {
-      email: email_addresses[0].email_address, // Fixed: removed extra 's'
-      name: first_name + " " + last_name, // Fixed: added space
+      email: email_addresses[0].email_address,
+      name: first_name + " " + last_name,
       image: image_url,
     };
     await User.findByIdAndUpdate(id, UserData, { new: true });
