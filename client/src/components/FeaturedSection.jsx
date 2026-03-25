@@ -2,11 +2,14 @@ import { ArrowRight } from "lucide-react";
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import Blurcircle from "./Blurcircle";
-import {dummyShowsData } from "../assets/assets";
+
 import MovieCard from "./MovieCard";
+
+import { useAppContext } from "../context/AppContext";
 
 const FeaturedSection = () => {
   const navigate = useNavigate();
+  const {shows} = useAppContext()
   return (
     <div className="px-6 md:px-16 lg:px-24 xl:px-44 overflow-hidden">
       {/* this for title and button to navigate to movie sections */}
@@ -24,7 +27,7 @@ const FeaturedSection = () => {
 
       {/* this for movies cards */}
       <div className="flex flex-wrap max-sm:justify-center gap-8 mt-8">
-        {dummyShowsData.slice(0,4).map((show)=>(<MovieCard key={show._id} movie={show}/>))}
+        {shows.slice(0,4).map((show)=>(<MovieCard key={show._id} movie={show}/>))}
       </div>
 
       {/*  show more button thats redirect to movies page  */}

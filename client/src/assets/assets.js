@@ -71,7 +71,7 @@ export const dummyShowsData = [
             { "id": 12, "name": "Adventure" }
         ],
         "casts": dummyCastsData,
-        "release_date": "2025-02-27",
+        "release_date": "2027-02-27",
         "original_language": "en",
         "tagline": "She seeks the power to free her people.",
         "vote_average": 6.4,
@@ -90,7 +90,7 @@ export const dummyShowsData = [
             { "id": 9648, "name": "Mystery" }
         ],
         "casts": dummyCastsData,
-        "release_date": "2025-04-23",
+        "release_date": "2027-04-23",
         "original_language": "en",
         "tagline": "Every night a different nightmare.",
         "vote_average": 6.405,
@@ -110,7 +110,7 @@ export const dummyShowsData = [
             { "id": 878, "name": "Science Fiction" }
         ],
         "casts": dummyCastsData,
-        "release_date": "2025-05-17",
+        "release_date": "2027-05-17",
         "original_language": "en",
         "tagline": "Hold on to your coconuts.",
         "vote_average": 7.117,
@@ -130,7 +130,7 @@ export const dummyShowsData = [
             { "id": 53, "name": "Thriller" }
         ],
         "casts": dummyCastsData,
-        "release_date": "2025-04-25",
+        "release_date": "2027-04-25",
         "original_language": "en",
         "tagline": "No law. Only disorder.",
         "vote_average": 6.537,
@@ -151,7 +151,7 @@ export const dummyShowsData = [
             { "id": 14, "name": "Fantasy" }
         ],
         "casts": dummyCastsData,
-        "release_date": "2025-03-31",
+        "release_date": "2027-03-31",
         "original_language": "en",
         "tagline": "Be there and be square.",
         "vote_average": 6.516,
@@ -171,7 +171,7 @@ export const dummyShowsData = [
             { "id": 53, "name": "Thriller" }
         ],
         "casts": dummyCastsData,
-        "release_date": "2025-05-17",
+        "release_date": "2027-05-17",
         "original_language": "en",
         "tagline": "Our lives are the sum of our choices.",
         "vote_average": 7.042,
@@ -191,7 +191,7 @@ export const dummyShowsData = [
             { "id": 12, "name": "Adventure" }
         ],
         "casts": dummyCastsData,
-        "release_date": "2025-04-30",
+        "release_date": "2027-04-30",
         "original_language": "en",
         "tagline": "Everyone deserves a second shot.",
         "vote_average": 7.443,
@@ -201,25 +201,25 @@ export const dummyShowsData = [
 ]
 
 export const dummyDateTimeData = {
-    "2025-07-24": [
-        { "time": "2025-07-24T01:00:00.000Z", "showId": "68395b407f6329be2bb45bd1" },
-        { "time": "2025-07-24T03:00:00.000Z", "showId": "68395b407f6329be2bb45bd2" },
-        { "time": "2025-07-24T05:00:00.000Z", "showId": "68395b407f6329be2bb45bd3" }
+    "2027-07-24": [
+        { "time": "2027-07-24T01:00:00.000Z", "showId": "68395b407f6329be2bb45bd1" },
+        { "time": "2027-07-24T03:00:00.000Z", "showId": "68395b407f6329be2bb45bd2" },
+        { "time": "2027-07-24T05:00:00.000Z", "showId": "68395b407f6329be2bb45bd3" }
     ],
-    "2025-07-25": [
-        { "time": "2025-07-25T01:00:00.000Z", "showId": "68395b407f6329be2bb45bd4" },
-        { "time": "2025-07-25T03:00:00.000Z", "showId": "68395b407f6329be2bb45bd5" },
-        { "time": "2025-07-25T05:00:00.000Z", "showId": "68395b407f6329be2bb45bd6" }
+    "2027-07-25": [
+        { "time": "2027-07-25T01:00:00.000Z", "showId": "68395b407f6329be2bb45bd4" },
+        { "time": "2027-07-25T03:00:00.000Z", "showId": "68395b407f6329be2bb45bd5" },
+        { "time": "2027-07-25T05:00:00.000Z", "showId": "68395b407f6329be2bb45bd6" }
     ],
-    "2025-07-26": [
-        { "time": "2025-07-26T01:00:00.000Z", "showId": "68395b407f6329be2bb45bd7" },
-        { "time": "2025-07-26T03:00:00.000Z", "showId": "68395b407f6329be2bb45bd8" },
-        { "time": "2025-07-26T05:00:00.000Z", "showId": "68395b407f6329be2bb45bd9" }
+    "2027-07-26": [
+        { "time": "2027-07-26T01:00:00.000Z", "showId": "68395b407f6329be2bb45bd7" },
+        { "time": "2027-07-26T03:00:00.000Z", "showId": "68395b407f6329be2bb45bd8" },
+        { "time": "2027-07-26T05:00:00.000Z", "showId": "68395b407f6329be2bb45bd9" }
     ],
-    "2025-07-27": [
-        { "time": "2025-07-27T01:00:00.000Z", "showId": "68395b407f6329be2bb45bda" },
-        { "time": "2025-07-27T03:00:00.000Z", "showId": "68395b407f6329be2bb45bdb" },
-        { "time": "2025-07-27T05:00:00.000Z", "showId": "68395b407f6329be2bb45bdc" }
+    "2027-07-27": [
+        { "time": "2027-07-27T01:00:00.000Z", "showId": "68395b407f6329be2bb45bda" },
+        { "time": "2027-07-27T03:00:00.000Z", "showId": "68395b407f6329be2bb45bdb" },
+        { "time": "2027-07-27T05:00:00.000Z", "showId": "68395b407f6329be2bb45bdc" }
     ]
 }
 
@@ -231,7 +231,7 @@ export const dummyDashboardData = {
         {
             "_id": "68352363e96d99513e4221a4",
             "movie": dummyShowsData[0],
-            "showDateTime": "2025-06-30T02:30:00.000Z",
+            "showDateTime": "2027-06-30T02:30:00.000Z",
             "showPrice": 59,
             "occupiedSeats": {
                 "A1": "user_2xO4XPCgWWwWq9EHuQxc5UWqIok",
@@ -242,21 +242,21 @@ export const dummyDashboardData = {
         {
             "_id": "6835238fe96d99513e4221a8",
             "movie": dummyShowsData[1],
-            "showDateTime": "2025-06-30T15:30:00.000Z",
+            "showDateTime": "2027-06-30T15:30:00.000Z",
             "showPrice": 81,
             "occupiedSeats": {},
         },
         {
             "_id": "6835238fe96d99513e4221a9",
             "movie": dummyShowsData[2],
-            "showDateTime": "2025-06-30T03:30:00.000Z",
+            "showDateTime": "2027-06-30T03:30:00.000Z",
             "showPrice": 81,
             "occupiedSeats": {},
         },
         {
             "_id": "6835238fe96d99513e4221aa",
             "movie": dummyShowsData[3],
-            "showDateTime": "2025-07-15T16:30:00.000Z",
+            "showDateTime": "2027-07-15T16:30:00.000Z",
             "showPrice": 81,
             "occupiedSeats": {
                 "A1": "user_2xO4XPCgWWwWq9EHuQxc5UWqIok",
@@ -268,7 +268,7 @@ export const dummyDashboardData = {
         {
             "_id": "683682072b5989c29fc6dc0d",
             "movie": dummyShowsData[4],
-            "showDateTime": "2025-06-05T15:30:00.000Z",
+            "showDateTime": "2027-06-05T15:30:00.000Z",
             "showPrice": 49,
             "occupiedSeats": {
                 "A1": "user_2xO4XPCgWWwWq9EHuQxc5UWqIok",
@@ -283,7 +283,7 @@ export const dummyDashboardData = {
         {
             "_id": "68380044686d454f2116b39a",
             "movie": dummyShowsData[5],
-            "showDateTime": "2025-06-20T16:00:00.000Z",
+            "showDateTime": "2027-06-20T16:00:00.000Z",
             "showPrice": 79,
             "occupiedSeats": {
                 "A1": "user_2xl7eCSUHddibk5lRxfOtw9RMwX",
@@ -301,7 +301,7 @@ export const dummyBookingData = [
         "show": {
             _id: "68352363e96d99513e4221a4",
             movie: dummyShowsData[0],
-            showDateTime: "2025-06-30T02:30:00.000Z",
+            showDateTime: "2027-06-30T02:30:00.000Z",
             showPrice: 59,
         },
         "amount": 98,
@@ -314,7 +314,7 @@ export const dummyBookingData = [
         "show": {
             _id: "68352363e96d99513e4221a4",
             movie: dummyShowsData[0],
-            showDateTime: "2025-06-30T02:30:00.000Z",
+            showDateTime: "2027-06-30T02:30:00.000Z",
             showPrice: 59,
         },
         "amount": 49,
@@ -327,7 +327,7 @@ export const dummyBookingData = [
         "show": {
             _id: "68352363e96d99513e4221a4",
             movie: dummyShowsData[0],
-            showDateTime: "2025-06-30T02:30:00.000Z",
+            showDateTime: "2027-06-30T02:30:00.000Z",
             showPrice: 59,
         },
         "amount": 147,
