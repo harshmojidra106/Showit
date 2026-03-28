@@ -22,7 +22,7 @@ const SyncUserCreation = inngest.createFunction(
       const UserData = {
         _id: id,
         email: email_addresses[0].email_address,
-        name: `${first_name} ${last_name || ""}`.trim(),
+        name: `${first_name} ${last_name}`,
         image: image_url,
       };
 
@@ -65,7 +65,7 @@ const syncUserUpdation = inngest.createFunction(
 
       const UserData = {
         email: email_addresses[0].email_address,
-        name: `${first_name} ${last_name || ""}`.trim(),
+        name: `${first_name} ${last_name}`,
         image: image_url,
       };
 
@@ -122,13 +122,14 @@ const sendBookingConfirmationEmail = inngest.createFunction(
         populate: { path: "movie", model: "Movie" },
       })
       .populate("user");
+    const userName = booking.user.name?.replace('null', '').trim();
     await sendemail({
       to: booking.user.email,
       subject: `Payment Confirmation:"${booking.show.movie.title}"booked!`,
       body: `
     <div style="font-family: Arial, sans-serif; line-height: 1.5;">
       
-      <h2>Hi ${booking.user.name},</h2>
+      <h2>Hi ${userName},</h2>
       
       <p>
         Your booking for 
