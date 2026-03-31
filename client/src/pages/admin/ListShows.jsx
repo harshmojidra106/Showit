@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import React from "react";
-import { dummyShowsData } from "../../assets/assets";
 import Title from "../../components/admin/Title";
 import { DateFormat } from "../../lib/DateFormat";
 import { useAppContext } from "../../context/AppContext";
+import Loading from "../../components/Loading";
 
 const ListShows = () => {
   const currency = import.meta.env.VITE_CURRENCY;
@@ -63,7 +63,7 @@ const ListShows = () => {
       </div>
     </>
   ) : (
-    <loading />
+    <Loading />
   );
 };
 
