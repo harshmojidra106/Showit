@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { dummyBookingData } from "../../assets/assets";
 import Loading from "../../components/Loading";
 import Title from "../../components/admin/Title";
-import { DateFormat } from "../../lib/Dateformat";
+import { DateFormat } from "../../lib/DateFormat";
 import { useAppContext } from "../../context/AppContext";
 
 const ListBookings = () => {

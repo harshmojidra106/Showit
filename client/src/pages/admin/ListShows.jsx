@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import React from "react";
 import { dummyShowsData } from "../../assets/assets";
 import Title from "../../components/admin/Title";
-import { DateFormat } from "../../lib/Dateformat";
+import { DateFormat } from "../../lib/DateFormat";
 import { useAppContext } from "../../context/AppContext";
 
 const ListShows = () => {
