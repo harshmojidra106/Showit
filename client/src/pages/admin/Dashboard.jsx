@@ -10,7 +10,7 @@ import { dummyDashboardData } from "../../assets/assets";
 import Loading from "../../components/Loading";
 import Title from "../../components/admin/Title.jsx";
 import Blurcircle from "../../components/Blurcircle";
-import { DateFormat } from "../../lib/Dateformat";
+import { DateFormat } from "../../lib/DateFormat";
 import { useAppContext } from "../../context/AppContext.jsx";
 
 const Dashboard = () => {
