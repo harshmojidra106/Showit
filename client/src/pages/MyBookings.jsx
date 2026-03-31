@@ -4,7 +4,7 @@ import Loading from "../components/Loading";
 import Blurcircle from "../components/Blurcircle";
 import isoTimeFormate from "../lib/IsoTimeFormate";
 import Timeformate from "../lib/Timeformate";
-import { DateFormat } from "../lib/Dateformat";
+import { DateFormat } from "../lib/DateFormat";
 import { useAppContext } from "../context/AppContext";
 import { Link } from "react-router-dom";
 
